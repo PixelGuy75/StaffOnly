@@ -1,0 +1,7 @@
+name: StaffOnly
+authors: PixelGuy75
+version: 1.0.0
+api: 1.12.0
+main: staffonly\Main
+load: STARTUP
+description: "Allow only staff members to join."
