@@ -1,1 +1,3 @@
 #Config file for StaffOnly
+mode: false
+quit-message: "Server under construction..."
