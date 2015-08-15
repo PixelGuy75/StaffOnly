@@ -1,7 +1,26 @@
 name: StaffOnly
-authors: PixelGuy75
+author: PixelGuy75
 version: 1.0.0
 api: 1.12.0
 main: staffonly\Main
 load: STARTUP
 description: "Allow only staff members to join."
+commands:
+ staffonlyon:
+  description: Enables StaffOnly mode.
+  usage: "Usage: /staffonlyon"
+  permission: staffonly.on
+ staffonlyoff:
+  description: Disables StaffOnly mode.
+  usage: "Usage: /staffonlyoff"
+  permission: staffonly.off
+permissions:
+ staffonly.on:
+  description: "Allows the user to use /staffonlyon"
+  default: op
+ staffonly.off:
+  description: "Allows the user to use /staffonlyoff"
+  default: op
+ staffonly.allow:
+  description: "Allows staff members to join"
+  default: op
